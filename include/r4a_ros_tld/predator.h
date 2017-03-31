@@ -39,7 +39,7 @@
 #include <map>
 
 #include <dynamic_reconfigure/server.h>
-#include <pandora_tld/predator_cfgConfig.h>
+#include <r4a_ros_tld/predator_cfgConfig.h>
 
 #include <geometry_msgs/Polygon.h>
 

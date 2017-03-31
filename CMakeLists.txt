@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(pandora_tld)
+project(r4a_ros_tld)
 
 find_package(catkin REQUIRED COMPONENTS
   cv_bridge

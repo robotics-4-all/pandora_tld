@@ -17,7 +17,7 @@
  *  along with Pandora_OpenTLD. If not, see http://www.gnu.org/licenses/.
  */
 
-#include "pandora_tld/predator.h"
+#include "r4a_ros_tld/predator.h"
 
 namespace pandora_vision
 {
@@ -175,7 +175,6 @@ namespace pandora_vision
 
     char LearningString[10]="";
     char mystring[128];
-
     if (!semaphore_locked)
     {
       cv_bridge::CvImagePtr in_msg;
@@ -323,7 +322,7 @@ namespace pandora_vision
   **/
   void Predator::getGeneralParams()
   {
-    packagePath = ros::package::getPath("pandora_tld");
+    packagePath = ros::package::getPath("r4a_ros_tld");
 
     //! Publishers
 
