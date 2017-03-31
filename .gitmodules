@@ -1,0 +1,3 @@
+[submodule "OpenTLD"]
+	path = OpenTLD
+	url = https://github.com/gnebehay/OpenTLD.git
